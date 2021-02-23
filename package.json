@@ -1,0 +1,17 @@
+{
+  "name": "test-aws-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "export SLS_DEBUG=* && node --inspect-brk=5858 ~/.nvm/versions/node/v12.20.2/lib/node_modules/serverless/bin/serverless.js offline start --skipCacheInvalidation"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "aws-sdk": "^2.849.0",
+    "serverless-offline": "^6.8.0",
+    "serverless-s3-local": "^0.6.7"
+  }
+}
