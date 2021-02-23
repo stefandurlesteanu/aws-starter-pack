@@ -17,7 +17,7 @@ custom:
 
 resources:
   Resources:
-    NewResource:
+    TestBucket:
       Type: AWS::S3::Bucket
       Properties:
         BucketName: thx-bucket
